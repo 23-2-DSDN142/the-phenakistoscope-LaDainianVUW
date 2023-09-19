@@ -6,7 +6,7 @@ function setup_pScope(pScope){
   pScope.draw_layer_boundaries(true);
   pScope.set_direction(CCW);
   pScope.set_slice_count(SLICE_COUNT);
-  pScope.load_image("download" , "png");
+  pScope.load_image("Deadpool" , "png");
   pScope.load_image("Wolverine" , "png");
   
 }
@@ -21,7 +21,7 @@ layer1.mode( SWIRL(4));
  
 
  
- var layer2 = new PLayer(download);
+ var layer2 = new PLayer(Deadpool);
   layer2.mode( RING );
   layer2.set_boundary( 0, 400 );
 }
@@ -31,8 +31,8 @@ function Wolverine(x, y, animation, pScope){
   scale(5)
 }
 
-function download(x, y, animation, pScope){
-  pScope.draw_image("download",x,y)
+function Deadpool(x, y, animation, pScope){
+  pScope.draw_image("Deadpool",x,y)
   
   
 }
